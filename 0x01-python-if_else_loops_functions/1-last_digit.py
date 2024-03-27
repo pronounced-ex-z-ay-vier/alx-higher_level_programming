@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-
+# last-n is last number
 last_n = number % 10
-
+# if number is less than 10 condition
+# to find last-n: number * -1 to convert to absolute number and %10 for REM
+# then reconvert to minus
 if number < 0:
     last_n = (number * -1) % 10
     last_n = last_n * -1
