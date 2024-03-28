@@ -4,7 +4,7 @@ for numbers in range(1, 100):
         numbers = "{0:02d}".format(numbers)
 
     if numbers == 99:
-        print(numbers)
+        print("{}".format(numbers))
 
     else:
         print("{}".format(numbers), end=", ")
