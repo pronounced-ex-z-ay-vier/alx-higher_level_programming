@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for numbers in range(1, 100):
+for numbers in range(0, 100):
     if numbers < 10:
         numbers = "{0:02d}".format(numbers)
 
